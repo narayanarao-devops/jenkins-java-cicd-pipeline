@@ -69,6 +69,21 @@ Deployment includes:
 - GitHub Actions integration
 
 ---
+## Architecture Diagram
+
+Developer
+   ↓
+GitHub Repository
+   ↓
+Jenkins Pipeline
+   ↓
+Docker Image Build
+   ↓
+Kubernetes Deployment
+   ↓
+Application Service Exposure
+
+---
 
 ## Author
 
